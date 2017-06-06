@@ -14,6 +14,8 @@
 		04FD97311EE6AD6000DFD822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FD972F1EE6AD6000DFD822 /* LaunchScreen.storyboard */; };
 		04FD973C1EE6AD6000DFD822 /* AniTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD973B1EE6AD6000DFD822 /* AniTableViewTests.swift */; };
 		04FD97471EE6AD6000DFD822 /* AniTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD97461EE6AD6000DFD822 /* AniTableViewUITests.swift */; };
+		04FD97551EE6B01D00DFD822 /* aniTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD97541EE6B01D00DFD822 /* aniTableViewCell.swift */; };
+		04FD97571EE6B1A300DFD822 /* MarketDepthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD97561EE6B1A300DFD822 /* MarketDepthData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		04FD97421EE6AD6000DFD822 /* AniTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FD97461EE6AD6000DFD822 /* AniTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniTableViewUITests.swift; sourceTree = "<group>"; };
 		04FD97481EE6AD6000DFD822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FD97541EE6B01D00DFD822 /* aniTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aniTableViewCell.swift; sourceTree = "<group>"; };
+		04FD97561EE6B1A300DFD822 /* MarketDepthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketDepthData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				04FD97261EE6AD6000DFD822 /* AppDelegate.swift */,
 				04FD97281EE6AD6000DFD822 /* ViewController.swift */,
+				04FD97541EE6B01D00DFD822 /* aniTableViewCell.swift */,
 				04FD972A1EE6AD6000DFD822 /* Main.storyboard */,
 				04FD972D1EE6AD6000DFD822 /* Assets.xcassets */,
 				04FD972F1EE6AD6000DFD822 /* LaunchScreen.storyboard */,
 				04FD97321EE6AD6000DFD822 /* Info.plist */,
+				04FD97561EE6B1A300DFD822 /* MarketDepthData.swift */,
 			);
 			path = AniTableView;
 			sourceTree = "<group>";
@@ -193,7 +199,7 @@
 				TargetAttributes = {
 					04FD97221EE6AD6000DFD822 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 768U2S2GPR;
+						DevelopmentTeam = 58LG38VBB3;
 						ProvisioningStyle = Automatic;
 					};
 					04FD97361EE6AD6000DFD822 = {
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD97551EE6B01D00DFD822 /* aniTableViewCell.swift in Sources */,
 				04FD97291EE6AD6000DFD822 /* ViewController.swift in Sources */,
 				04FD97271EE6AD6000DFD822 /* AppDelegate.swift in Sources */,
+				04FD97571EE6B1A300DFD822 /* MarketDepthData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 768U2S2GPR;
+				DEVELOPMENT_TEAM = 58LG38VBB3;
 				INFOPLIST_FILE = AniTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mqt.AniTableView;
@@ -428,7 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 768U2S2GPR;
+				DEVELOPMENT_TEAM = 58LG38VBB3;
 				INFOPLIST_FILE = AniTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mqt.AniTableView;
